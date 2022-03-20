@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    }
+header {
+        background-color:#FFD100 ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+header h1 {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+}
+header img {
+   margin-top: 10px;
+   margin-left: 30px;
+}
+.searchbox {
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+#btn-search {
+    background-color: #FFFFFF;
+    height: 39px;
+    width: 45px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.caixa-pesquisa {
+    padding: 10px;
+    border-radius: 20px;
+    width: 323px;
+    height: 39px;
+    left: 1207px;
+    top: 100px;
+    border: 0 none;
+    background: #FFFFFF
+}
+.caixa-pesquisa:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+}
+section h1 {
+    margin: 50px 100px;
+}
+                /* Formulario */
+.formulario {
+    background: #F4F4F4;
+    box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: 145px;
+    margin-right: 500px;
+    margin-bottom: 317px;
+}
+#name {
+    background: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 56px;
+    width: 400px;
+    height: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+#name:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+}
+#mail {
+    background: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 56px;
+    width: 400px;
+    height: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0 none;
+}
+#mail:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+}
+#numero {
+    background: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 56px;
+    width: 400px;
+    height: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0 none;
+}
+#numero:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+}
+#numero-pedido{
+    background: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 56px;
+    width: 400px;
+    height: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0 none;
+}
+#numero-pedido:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+}
+#msg {
+    background: #ffffff;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 56px;
+    width: 400px;
+    height: 40px;
+    border: 0 none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    resize: vertical ;
+    max-width: 400px; max-height: 400px; min-height: 100px; min-width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#msg:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+}
+#btn {
+    background: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 122px;
+    width: 400px;
+    height: 40px;
+    border: 1 none; 
+    cursor: pointer;
+}
+            /* Footer*/
+footer {
+    background-color: #FFD100;
+}
+footer p {
+    text-align: center;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+    line-height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.lista-de-contato h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.compra-segura {
+    margin-top: 62px;
+    margin-bottom: 196px;
+    margin-right: 39px;
+} 

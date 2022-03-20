@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@700&family=Roboto:wght@400;500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffd100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+}
+
+header img {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.searchbox {
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+#btn-search {
+    background-color: #FFFFFF;
+    height: 39px;
+    width: 45px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.caixa-pesquisa {
+    padding: 10px;
+    border-radius: 20px;
+    width: 323px;
+    height: 39px;
+    left: 1207px;
+    top: 100px;
+    border: 0 none;
+    background: #FFFFFF
+}
+.caixa-pesquisa:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 234px;
+    margin-top: 176px;
+}
+
+.img-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 49px;
+}
+
+#imagem-1 {
+    margin-bottom: 69px;
+}
+
+#img-3 {
+    margin-right: 78px;
+}
+
+.img-3 {
+    margin-left: 0px;
+}
+
+.parte1 {
+    margin-right: 72px;
+}
+
+#nike {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+#jordan {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+#h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+
+.tam {
+    margin-top: 21px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#tam {
+    margin-right: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.tam select {
+    border: none;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    width: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.valor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.valor h1 {
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 58px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.valor img {
+    margin-left: 20px;
+}
+
+.parte1 button {
+    width: 641px;
+    height: 64px;
+    background: #42ff00;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.container-frete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container-frete img {
+    margin-right: 20px;
+}
+
+.container-frete h3 {
+    margin-right: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+#input-cep {
+    background: #ffffff;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 360px;
+    height: 47px;
+    border: none 0px;
+}
+
+#input-cep:focus {
+    border: none;
+    background-color: #ffffff;
+}
+
+#enviar-cep {
+    background-color: rgba(0, 253, 0, 255);
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    height: 27px;
+    width: 50px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.desc h5 {
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    margin-left: 35px;
+}
+
+.desc p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-left: 125px;
+    margin-right: 194px;
+    margin-top: 97px;
+}
+
+#hr2 {
+    margin-top: 300px;
+}
+
+#veja-mais {
+    text-align: center;
+    margin-bottom: 65px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+    margin-top: 136px;
+}
+
+.container-slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+    border: 10px #000;
+}
+
+.slide {
+    background-color: #ffd100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+}
+
+.slide h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 44px;
+}
+
+.slide h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+    margin-top: 29px;
+}
+
+.slide-btn {
+    background: #000000;
+    border-radius: 20px;
+    width: 150px;
+    height: 36px;
+    margin-top: 34px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.slide-btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.foam {
+    background-color: #ffd100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+}
+
+.foam h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+    margin-top: 44px;
+}
+
+.foam h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+    margin-top: 29px;
+}
+
+.foam-btn {
+    width: 150px;
+    height: 36px;
+    background: #000000;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 34px;
+    text-align: center;
+}
+
+.foam-btn a {
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.boots {
+    background-color: #ffd100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+}
+
+.boots h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+    margin-top: 44px;
+}
+
+.boots h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+    margin-top: 29px;
+}
+
+.boots-btn {
+    width: 150px;
+    height: 36px;
+    background: #000000;
+    border-radius: 20px;
+    color: white;
+    margin-top: 34px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.boots-btn a {
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Footer */
+
+footer {
+    background-color: #ffd100;
+}
+
+footer p {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    line-height: 21px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.lista-de-contato h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.compra-segura {
+    margin-top: 62px;
+    margin-bottom: 196px;
+    margin-right: 39px;
+}
